@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study in Portugal - Good Angel Travels & Tour</title>
+    <link rel="stylesheet" href="front.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .country-hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1518998053901-5348d3961a04?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            color: white;
+            margin-top: 80px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="about.html" class="logo">
+                    <i class="fas fa-graduation-cap"></i>GOOD ANGEL TRAVELS & TOUR
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="front.html#programs">PROGRAMS</a></li>
+                    <li><a href="front.html#visa">VISA GUIDANCE</a></li>
+                    <li><a href="front.html#testimonials">SUCCESS STORIES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                <div class="auth-buttons">
+                    <a href="#" class="btn btn-outline" onclick="openAuthModal(); return false;">LOGIN</a>
+                    <a href="#" class="btn btn-outline" onclick="openAuthModal(); return false;">SIGN UP</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="country-hero">
+        <div class="container">
+            <div class="country-hero-content">
+                <h1>Study in Portugal</h1>
+                <p>Discover affordable education in one of Europe's most beautiful countries</p>
+                <a href="#programs" class="btn btn-accent">EXPLORE PORTUGUESE PROGRAMS</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="country-info">
+        <div class="container">
+            <h2 class="section-title">About Studying in Portugal</h2>
+            
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>Education System</h3>
+                    <ul class="info-list">
+                        <li>High-quality education system</li>
+                        <li>Affordable tuition fees</li>
+                        <li>English-taught programs available</li>
+                        <li>Strong focus on research</li>
+                        <li>Modern facilities and resources</li>
+                    </ul>
+                </div>
+                
+                <div class="info-card">
+                    <h3>Student Life</h3>
+                    <ul class="info-list">
+                        <li>Beautiful beaches and coastline</li>
+                        <li>Rich history and culture</li>
+                        <li>Mild climate year-round</li>
+                        <li>Friendly and welcoming locals</li>
+                        <li>Affordable cost of living</li>
+                    </ul>
+                </div>
+                
+                <div class="info-card">
+                    <h3>Practical Information</h3>
+                    <ul class="info-list">
+                        <li>Student visa required for non-EU students</li>
+                        <li>Tuition fees: €1,000 - €7,000/year</li>
+                        <li>Living costs: €600 - €900/month</li>
+                        <li>Part-time work allowed (20 hours/week)</li>
+                        <li>Health insurance required</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="programs" class="universities">
+        <div class="container">
+            <h2 class="section-title">Top Universities in Portugal</h2>
+            
+            <div class="universities-grid">
+                <div class="university-card">
+                    <div class="university-img">
+                        <img src="https://images.unsplash.com/photo-1592409065737-a253f4bfa5d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="University of Lisbon">
+                    </div>
+                    <div class="university-content">
+                        <h3>University of Lisbon</h3>
+                        <div class="university-details">
+                            <span><i class="fas fa-map-marker-alt"></i> Lisbon</span>
+                            <span><i class="fas fa-trophy"></i> Rank #1</span>
+                        </div>
+                        <p>Portugal's largest university with a wide range of programs and research opportunities.</p>
+                        <a href="#" class="btn">View Programs</a>
+                    </div>
+                </div>
+                
+                <div class="university-card">
+                    <div class="university-img">
+                        <img src="https://images.unsplash.com/photo-1578667522362-3671d77bb8f2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="University of Porto">
+                    </div>
+                    <div class="university-content">
+                        <h3>University of Porto</h3>
+                        <div class="university-details">
+                            <span><i class="fas fa-map-marker-alt"></i> Porto</span>
+                            <span><i class="fas fa-trophy"></i> Rank #2</span>
+                        </div>
+                        <p>Known for its strong research output and beautiful campus in Portugal's second city.</p>
+                        <a href="#" class="btn">View Programs</a>
+                    </div>
+                </div>
+                
+                <div class="university-card">
+                    <div class="university-img">
+                        <img src="https://images.unsplash.com/photo-1516496636080-14fb876e029d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="University of Coimbra">
+                    </div>
+                    <div class="university-content">
+                        <h3>University of Coimbra</h3>
+                        <div class="university-details">
+                            <span><i class="fas fa-map-marker-alt"></i> Coimbra</span>
+                            <span><i class="fas fa-trophy"></i> Rank #3</span>
+                        </div>
+                        <p>One of the oldest universities in Europe, founded in 1290, with a rich academic tradition.</p>
+                        <a href="#" class="btn">View Programs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="visa-process">
+        <div class="container">
+            <h2 class="section-title">Portugal Student Visa Process</h2>
+            
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Get Accepted</h3>
+                    <p>Receive acceptance from a Portuguese educational institution</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Prepare Documents</h3>
+                    <p>Gather required documents including proof of finances and accommodation</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Apply for Visa</h3>
+                    <p>Submit your student visa application at the Portuguese embassy or consulate</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Residence Permit</h3>
+                    <p>Apply for a residence permit after arriving in Portugal</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <h3>Register with SEF</h3>
+                        <p>Register with the Portuguese Immigration and Borders Service (SEF)</p>
+                    </div>
+                </div>
+                
+                <div style="text-align: center; margin-top: 40px;">
+                    <a href="portugal-visa.html" class="btn btn-accent">Detailed Visa Requirements</a>
+                </div>
+            </div>
+        </section>
+
+        <footer id="contact">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-column">
+                        <h3>Good Angel Travels & Tour</h3>
+                        <p>Helping students achieve their dreams of studying abroad since 2010.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="front.html#programs">Programs</a></li>
+                            <li><a href="front.html#visa">Visa Guidance</a></li>
+                            <li><a href="front.html#testimonials">Success Stories</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Countries</h3>
+                        <ul>
+                            <li><a href="united-states.html">United States</a></li>
+                            <li><a href="spain.html">Spain</a></li>
+                            <li><a href="uk-page.html">United Kingdom</a></li>
+                            <li><a href="portugal.html">Portugal</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Contact Us</h3>
+                        <ul>  
+                        <li><i class="fas fa-map-marker-alt"></i> 3rd floor, Nicon Insurance Plaza, Opp.Vfs, CBD, Abuja, NIgeria</li>
+                        <li><i class="fas fa-phone"></i> +234 7039-630-687</li>
+                        <li><i class="fas fa-envelope"></i> info@goodangeltravels.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2023 Good Angel Travels & Tour. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+    </html>
